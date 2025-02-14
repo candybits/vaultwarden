@@ -25,17 +25,21 @@ img {
     min-width: 85px;
     max-width: 85px;
 }
-#users-table .vw-items, #orgs-table .vw-items, #orgs-table .vw-users {
+#users-table .vw-entries, #orgs-table .vw-users, #orgs-table .vw-entries {
     min-width: 35px;
     max-width: 40px;
+}
+#orgs-table .vw-misc {
+    min-width: 65px;
+    max-width: 80px;
 }
 #users-table .vw-attachments, #orgs-table .vw-attachments {
     min-width: 100px;
     max-width: 130px;
 }
 #users-table .vw-actions, #orgs-table .vw-actions {
-    min-width: 130px;
-    max-width: 130px;
+    min-width: 135px;
+    max-width: 140px;
 }
 #users-table .vw-org-cell {
     max-height: 120px;
